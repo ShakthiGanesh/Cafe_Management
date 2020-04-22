@@ -1,0 +1,199 @@
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.CafeTitle {
+    color: darkgreen;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 60px;
+   
+}
+
+.SearchImage { 
+    display: block;
+    max-width: 30px;
+    max-height: 30px;
+    
+    
+    
+}
+
+.SearchImage:hover {
+     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.AddMenu-title {
+    margin-top: 20px;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.Add-menu {
+    display: inline-flex;
+    /* margin-left: 700px; */
+    margin-top: 15px;
+    margin-left: 50px;
+    
+
+}
+
+.AddMenu {
+    margin-right: 15px;
+    height: 20px;
+}
+
+.AddMenu-submit {
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    font-size: 17px;
+    border-radius: 4px;
+    border:  1px solid transparent;
+    display: grid;
+    align-items: center;
+}
+
+
+.MainHeader {
+    display: flex;
+    background: lightcyan;
+}
+
+.LogOut-link {
+    color: darkgreen;
+    margin-top: 25px;
+    margin-left: 355px;
+    margin-right: 10px;
+    max-width: 70px;
+    max-height: 30px;
+    font-family: serif;
+    font-size: 16px;
+
+    
+}
+
+.AddUser-image {
+    max-width: 60px;
+    max-height: 45px;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+}
+
+.CartImage:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+
+.MenuTitle {
+    font-size: 35px;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+
+.Menu {
+    border: 1px  solid rgb(134, 131, 131); width: 100%; margin: auto; margin-top: 2%; margin-bottom: 5%;
+    height: auto;
+     
+}
+
+.Menu-header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+
+.MenuSerial-header {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.MenuItem-header {
+    margin-top: 15px;
+    display: table;
+    margin-bottom: 15px;
+}
+
+.MenuPrice-header {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.MenuQuantity-header {
+    margin-top: 15px;
+    margin-bottom: 18px;
+
+}
+
+.MenuSerial {
+    margin-left: 20px;
+}
+
+.MenuItem {
+    display: table-cell;
+    vertical-align: middle;
+    display: flex;
+    
+
+}
+
+.MenuDropdown {
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+
+.MenuPrice {
+    margin-left: 30px;
+}
+
+
+
+ul {
+    display: table;
+    font-size: 30px;
+}
+
+li {
+    display: table-cell;
+    vertical-align: middle;
+    display: flex;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.MenuTotal {
+    display: grid;
+    justify-content: end;
+    margin-right: 80px;
+    font-size: 30px;
+}
+
+.MenuTotal {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.MenuBase {
+    display: flex;
+    margin-right: 90px;
+    margin-left: auto;
+    justify-content: flex-end;
+}
+
+.MenuSubmit {
+    
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    font-size: 17px;
+    border-radius: 4px;
+    border:  1px solid transparent;
+    display: grid;
+    align-items: center;
+}
+
+

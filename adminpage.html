@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Our Cafe Application</title>
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="admin.css">
+    </head>
+
+    <body>
+        <section class="MainHeader">
+            <h1 class="CafeTitle"> Cafe Day </h1>
+            <a class="LogOut-link" href="">LogOut</a>
+            <!-- <%= link_to "#####", *******%> </p> -->
+            <img class="AddUser-image" src="add-user.png" />
+            <!-- <%= form_with(url: "*****", method: "get") do %> -->
+            <!-- <input type='image' src="add-user.png" class="AddUser-image"> -->
+            <!-- <% end %> -->
+        </section>
+        <p class="AddMenu-title">Add an Item</p>
+        <p class="Add-menu">
+            <!-- <%= form_with(url: "*****", method: "post", class: "Add-menu") do %> -->
+            <input type="text" placeholder="Add an item" class="AddMenu" />
+            <input type="text" placeholder=" Price " class="AddMenu" />
+            <!-- <%= text_field_tag "*****", nil, class: "AddMenu", placeholder: "Add an item" %> -->
+            <!-- <%= text_field_tag "*****", nil, class: "AddMenu", placeholder: "Price" %> -->
+            <input class="AddMenu-submit" type="submit" value=" Add ">
+            <!-- <%= submit_tag "Add", class: "AddMenu-submit" %> -->
+            <!-- <% end %> -->
+        </p>
+        <p class="MenuTitle"> Menu</p>
+
+
+        <div class="Menu">
+            <section class="Menu-header">
+
+                <ul class="MenuSerial-header">S.No
+                    <li class="MenuSerial">1</li>
+                    <li class="MenuSerial">2</li>
+                </ul>
+                <ul class="MenuItem-header"> Items
+                    <li class="MenuItem"> Dalgona</li>
+                    <li class="MenuItem"> Dalgona</li>
+                    <li class="MenuItem"> Dalgona</li>
+                </ul>
+                <ul class="MenuPrice-header">Price (Rs.)
+                    <li class="MenuPrice">1170</li>
+                    <li class="MenuPrice">1170</li>
+                    <li class="MenuPrice">1170</li>
+                </ul>
+                <ul class="MenuQuantity-header">Quantity
+                    <li class="MenuDropdown">
+                        <input class="MenuDropdown" id="quantity" name="quantity" min="0" max="9" type="number"
+                            value="0" />
+                    </li>
+                    <li class="MenuDropdown">
+                        <input class="MenuDropdown" id="quantity" name="quantity" min="0" max="9" type="number"
+                            value="0" />
+                    </li>
+                    <li class="MenuDropdown">
+                        <input class="MenuDropdown" id="quantity" name="quantity" min="0" max="9" type="number"
+                            value="0" />
+                    </li>
+                </ul>
+
+            </section>
+        </div>
+        <section class="MenuBase">
+            <div class="MenuSubmit">
+                <input class="MenuSubmit" type="submit" value="Place">
+                <!-- <%= submit_tag "Place", class: "MenuSubmit" %> -->
+            </div>
+            <div class="MenuTotal">
+                Total :
+            </div>
+        </section>
+
+
+    </body>
+
+
+
+
+
+
+</html>
