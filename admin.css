@@ -33,7 +33,7 @@ body {
 .Add-menu {
     display: inline-flex;
     /* margin-left: 700px; */
-    margin-top: 15px;
+    margin-top: 25px;
     margin-left: 50px;
     
 
@@ -79,6 +79,7 @@ body {
     margin-left: auto;
     margin-right: 10px;
     margin-top: 10px;
+    opacity: 75%;
     
 }
 
@@ -91,79 +92,73 @@ body {
     font-size: 35px;
     padding-top: 25px;
     padding-left: 10px;
+    margin-bottom: 20px;
 }
 
-.Menu {
-    border: 1px  solid rgb(134, 131, 131); width: 100%; margin: auto; margin-top: 2%; margin-bottom: 5%;
-    height: auto;
-     
-}
-
-.Menu-header {
+.CafeMenu-edit {
     display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
+}
+table, th, td {
+  border: 0px solid rgb(100, 96, 96);
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+ .Menu-edit {
+    max-width: 40px;
+    text-align: left;
+    display: flex;
     
 }
 
-.MenuSerial-header {
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
 .MenuItem-header {
-    margin-top: 15px;
-    display: table;
-    margin-bottom: 15px;
-}
-
-.MenuPrice-header {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    
-}
-
-.MenuQuantity-header {
-    margin-top: 15px;
-    margin-bottom: 18px;
+    font-size: 27px;
 
 }
 
-.MenuSerial {
-    margin-left: 20px;
+.MenuEdit-header {
+    text-align: left;
+    padding-left: 20px;
 }
 
-.MenuItem {
-    display: table-cell;
-    vertical-align: middle;
-    display: flex;
-    
-
+.EditItem {
+    opacity: 0;
+    width: 30px;
+    margin-left: 45px;
 }
+
+.DeleteItem {
+    width:30px;
+    margin-left: 15px;
+    opacity: 0;
+}
+ .MenuItems {
+     font-size: 20px;
+     color: rgb(51, 45, 45);
+
+ }
+
+.MenuItems:hover  .EditItem{
+    display:inline;
+    opacity: 85%;
+}
+
+.MenuItems:hover  .DeleteItem{
+    display:inline;
+    opacity: 85%;
+}
+
 
 .MenuDropdown {
-    width: 50px;
-    margin-top: 10px;
-    margin-left: 20px;
-    
-}
+  width: 50px;
+  font-size: 20px;
+  margin-left: 30px;
+  
 
-.MenuPrice {
-    margin-left: 30px;
-}
-
-
-
-ul {
-    display: table;
-    font-size: 30px;
-}
-
-li {
-    display: table-cell;
-    vertical-align: middle;
-    display: flex;
-    margin-top: 30px;
-    font-size: 20px;
 }
 
 .MenuTotal {
@@ -171,18 +166,18 @@ li {
     justify-content: end;
     margin-right: 80px;
     font-size: 30px;
-}
-
-.MenuTotal {
-    font-size: 30px;
     margin-left: 20px;
 }
 
+
 .MenuBase {
     display: flex;
+    align-items: center;
     margin-right: 90px;
     margin-left: auto;
     justify-content: flex-end;
+    margin-top: 30px;
+    
 }
 
 .MenuSubmit {
@@ -192,8 +187,8 @@ li {
     font-size: 17px;
     border-radius: 4px;
     border:  1px solid transparent;
-    display: grid;
-    align-items: center;
+    padding: 2px;
+    max-height: 30px;
 }
 
 

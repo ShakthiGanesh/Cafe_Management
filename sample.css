@@ -1,0 +1,132 @@
+table, th, td {
+  border: 0px solid rgb(100, 96, 96);
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: center;
+}
+.EditMenu {
+    opacity: 0;width: 10px;
+}
+
+.Flex {
+     /* display: flex; */
+    text-align: center;
+} 
+.Sss:hover .EditMenu {
+    display:inline;
+    opacity: 100%;
+}
+
+.MenuDropdown {
+  width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Menu {
+    border: 1px  solid rgb(134, 131, 131); width: 100%; margin: auto; margin-top: 2%; margin-bottom: 5%;
+    height: auto;
+     
+}
+
+.Menu-header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+
+.MenuSerial-header {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 65px;
+}
+.MenuItem-header {
+    margin-top: 15px;
+    display: table;
+    margin-bottom: 15px;
+}
+
+.MenuPrice-header {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.MenuQuantity-header {
+    margin-top: 15px;
+    margin-bottom: 18px;
+    align-items: center;
+
+}
+
+.MenuSerial {
+    margin-left: 20px;
+}
+
+.MenuItem {
+    display: table-cell;
+    vertical-align: middle;
+    display: flex;
+    
+
+}
+
+.MenuDropdown {
+    display: flex;
+    width: 50px;
+    margin-top: 12px;
+    margin-left: 20px;
+    align-self: center;
+
+    
+}
+
+.EditMenu {
+    margin-top: 5px;
+    margin-left: 13px;
+    display: flex;
+    opacity: 0;
+}
+
+.MenuPrice {
+    margin-left: 30px;
+}
+
+
+
+ul {
+    display: table;
+    font-size: 30px;
+}
+
+li {
+    display: table-cell;
+    vertical-align: middle;
+    display: flex;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+ ul li:hover  .EditMenu {
+    opacity: 100%;
+
+}
