@@ -145,111 +145,37 @@ body {
 
 .MenuTitle {
     font-size: 40px;
-    padding-top: 15px;
+    padding-top: 25px;
     padding-left: 10px;
-}
-.Menu {
-    border: 1px  solid rgb(134, 131, 131); width: 100%; margin: auto; margin-top: 2%; margin-bottom: 5%;
-    height: auto;
-     
+    padding-bottom: 20px;
 }
 
-.Menu-header {
+.CafeMenu-edit {
     display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-    
 }
 
-.MenuSerial-header {
-    margin-top: 15px;
-    margin-bottom: 15px;
+table, th, td {
+  border: 0px solid rgb(100, 96, 96);
+  border-collapse: collapse;
+  max-width: 800px;
 }
-.MenuItem-header {
-    margin-top: 15px;
-    display: table;
-    margin-bottom: 15px;
-}
-
-.MenuPrice-header {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    
+th, td {
+  padding: 5px;
+  padding-bottom: 10px;
+  text-align: center;
 }
 
-.MenuQuantity-header {
-    margin-top: 15px;
-    margin-bottom: 18px;
-
+th {
+    font-size: 27px;
 }
 
-.MenuSerial {
-    margin-left: 20px;
-}
-
-.MenuItem {
-    display: table-cell;
-    vertical-align: middle;
-    display: flex;
-    
-
-}
-
-.MenuDropdown {
-    width: 50px;
-    margin-top: 10px;
-    margin-left: 20px;
-    
-}
-
-.MenuPrice {
-    margin-left: 30px;
-}
-
-
-
-ul {
-    display: table;
-    font-size: 30px;
-}
-
-li {
-    display: table-cell;
-    vertical-align: middle;
-    display: flex;
-    margin-top: 30px;
+td {
     font-size: 20px;
 }
-
-.MenuTotal {
-    /* display: grid; */
-    /* justify-content: end; */
-    /* margin-right: 80px; */
-    font-size: 30px;
-    margin-left: 20px;
-}
-
-.MenuBase {
+.Menu-edit {
+    max-width: 40px;
+    text-align: left;
     display: flex;
-    margin-right: 90px;
-    margin-left: auto;
-    justify-content: flex-end;
+    
 }
-
-.MenuSubmit {
-    /* margin: 0; */
-    /* background-color: limegreen; */
-    /* margin-right: 15px; */
-  /* max-height: 25px; */
-     background-color: #4CAF50;
-    color: #FFFFFF;
-    font-size: 17px;
-    /* padding : 5px 20px; */
-    /* border: 1px solid transparent; */
-    border-radius: 4px;
-    border:  1px solid transparent;
-    display: grid;
-    align-items: center;
-}
-
 

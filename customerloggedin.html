@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Our Cafe Application</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="customerloggedin.css">
+</head>
+
+<body>
+    <section class="MainHeader">
+        <h1 class="CafeTitle"> Cafe Day </h1>
+        <a class="LogOut-link" href="">LogOut</a>
+        <!-- <%= link_to "#####", *******%> </p> -->
+        <input type='image' class="CartImage" src="order-online.svg" />
+        <!-- <%= form_with(url: "*****", method: "get") do %> -->
+        <!-- <input type='image' src="order-online.svg" class="CartImage"> -->
+        <!-- <% end %> -->
+    </section>
+
+    <p class="MenuTitle"> Menu</p>
+
+    <div class="CafeMenu-edit">
+        <table style="width:100%">
+            <tr>
+                <th>S.no</th>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+            <tr class="MenuItems">
+                <td>1</td>
+                <td>Coffee</td>
+                <td>50</td>
+                <td class="Menu-edit">
+                    <a><input class="MenuDropdown" id="quantity" name="quantity" min="0" max="9" type="number"
+                            value="0" />
+                    </a>
+                    <!-- <%= form_with(url: "****",method: "post") do %> -->
+                    <!-- <%= number_field_tag 'quantity', nil, min: 0, max: 9, class: 'MenuDropdown' %> -->
+                    <!-- <% end %> -->
+
+                </td>
+
+            </tr>
+        </table>
+
+    </div>
+
+
+    <section class="MenuBase">
+        <div class="MenuSubmit">
+            <input class="MenuSubmit" type="submit" value="Place">
+            <!-- <%= submit_tag "Place", class: "MenuSubmit" %> -->
+        </div>
+        <div class="MenuTotal">
+            Total :
+        </div>
+    </section>
+
+
+</body>
+
+
+
+
+
+
+</html>
